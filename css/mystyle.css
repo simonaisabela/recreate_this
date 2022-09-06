@@ -43,3 +43,12 @@ header {
   height: auto;
   margin: 5px;
 }
+
+main {
+  background-color: var(--div-background-color);
+}
+
+.wrapper1 {
+  width: 840px;
+  margin: 0 auto;
+}
