@@ -1,8 +1,45 @@
+* {
+  margin: 0;
+}
+
 /* CSS VARIABLES */
 
-root {
+:root {
   --div-background-color: #dd524d;
   --text-color: #541d1f;
   --div-padding: 10px;
   --div-margin: 10px;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--div-background-color);
+}
+
+.mainNav {
+  background-color: var(--div-background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #be5550;
+}
+
+.rightnav {
+  display: flex;
+}
+
+.mainNav img {
+  width: 130px;
+  height: auto;
+  margin: 10px;
+}
+
+.rightnav img {
+  width: 100px;
+  height: auto;
+  margin: 5px;
 }
