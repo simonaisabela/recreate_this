@@ -7,15 +7,6 @@
   margin: 0 auto;
 }
 
-/* CSS VARIABLES */
-
-:root {
-  --div-background-color: #dd524d;
-  --text-color: #541d1f;
-  --div-padding: 10px;
-  --div-margin: 10px;
-}
-
 header {
   background-color: var(--div-background-color);
 }
